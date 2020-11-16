@@ -1,4 +1,8 @@
 require 'bundler/setup'
+
+require 'open-uri'
+require 'nokogiri'
+
 Bundler.require
 
 ENV['SINATRA_ENV'] ||= "development"

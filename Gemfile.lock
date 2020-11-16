@@ -27,6 +27,7 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (~> 1.5)
       xpath (~> 3.2)
+    chartkick (3.4.2)
     coderay (1.1.2)
     concurrent-ruby (1.1.5)
     daemons (1.3.1)
@@ -109,6 +110,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord (= 4.2.5)
   capybara
+  chartkick
   pry
   rack-test
   rake
